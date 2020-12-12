@@ -1,0 +1,14 @@
+<manifest package="com.vimeo.androidvimeoplayer"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application>
+        <activity
+            android:name="com.vimeo.androidvimeoplayer.view.VimeoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme_Fullscreen">
+        </activity>
+    </application>
+</manifest>
